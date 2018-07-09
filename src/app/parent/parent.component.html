@@ -1,0 +1,9 @@
+<p>parent works!
+  </p>
+  <ul *ngFor="let user of useList">
+      <app-child [user]="user" (cuser)='parentlistner(newuser)'></app-child>
+          </ul>
+
+
+
+

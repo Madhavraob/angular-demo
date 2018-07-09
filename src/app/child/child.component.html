@@ -1,0 +1,5 @@
+<p>
+  child works!
+  {{user.name}}
+  <input name='firstinput' [ngModel]='user.name' (input)='inputChange($event.target.value)'/>
+</p>
